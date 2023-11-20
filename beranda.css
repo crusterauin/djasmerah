@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E2C799;
+}
+
+nav {
+    background: #9A3B3B;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    height: min-content;
+    width: 100%;
+}
+
+.logoJudul {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.logo {
+    width: 73px;
+    height: 73px;
+    flex-shrink: 0;
+}
+
+.judul {
+    color: #FFF;
+    font-family: 'Quando', serif;
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 51.75rem;
+}
+
+.kiri {
+    width: 50%;
+    margin-left: 7.375rem;
+    margin-top: 8rem;
+}
+
+.kanan {
+    display: flex;
+    justify-content: center;
+}
+
+.atas {
+    color: #9A3B3B;
+    font-family: Quando;
+    font-size: 5.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bawah {
+    color: #9A3B3B;
+    font-family: Quando;
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 3rem;
+}
+
+.belajar {
+    color: #C08261;
+    font-family: Plus Jakarta Sans;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 3rem;
+}
+
+.judulKecil {
+    color: #9A3B3B;
+    font-family: Quando;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button {
+    width: 17.125rem;
+    height: 4.875rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #9A3B3B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: .5rem;
+}
+
+.button>a {
+    text-decoration: none;
+}
+
+.mulaiBelajar {
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.oleh {
+    display: flex;
+    margin-top: 5rem;
+}

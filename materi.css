@@ -1,0 +1,134 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E2C799;
+}
+
+nav {
+    background: #9A3B3B;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    height: min-content;
+    width: 100%;
+}
+
+.logoJudul {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.logo {
+    width: 73px;
+    height: 73px;
+    flex-shrink: 0;
+}
+
+.judul {
+    color: #FFF;
+    font-family: 'Quando', serif;
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.judulMateri {
+    text-align: center;
+    color: #9A3B3B;
+    font-family: Quando;
+    font-size: 4.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 3.12rem;
+}
+
+.kotakLogo {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.logoMateri {
+    width: 10rem;
+    height: 10rem;
+}
+
+.paragraf {
+    color: #9A3B3B;
+    text-align: justify;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2rem;
+}
+
+.paragraf>p {
+    margin-bottom: 0.5rem;
+}
+
+.lanjut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.sudahPaham {
+    color: #9A3B3B;
+    font-family: Quando;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lanjutQuiz,
+.lanjutQuiz:active,
+.lanjutQuiz:focus,
+.lanjutQuiz:hover {
+    width: 17.125rem;
+    height: 4.875rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #9A3B3B;
+    color: #FFF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.lanjutQuiz>p {
+    margin-top: 0.8rem;
+}
+
+.oleh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

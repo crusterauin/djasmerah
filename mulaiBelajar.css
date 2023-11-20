@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E2C799;
+}
+
+nav {
+    background: #9A3B3B;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    height: min-content;
+    width: 100%;
+}
+
+.logoJudul {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.logo {
+    width: 73px;
+    height: 73px;
+    flex-shrink: 0;
+}
+
+.judul {
+    color: #FFF;
+    font-family: 'Quando', serif;
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.belajarApa {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.atas {
+    color: #9A3B3B;
+    font-family: Quando;
+    font-size: 4.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bawah {
+    color: #9A3B3B;
+    font-family: Plus Jakarta Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.tahun {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    font-family: Quando;
+    color: #9A3B3B;
+}
+
+.tahunAtas,
+.tahunBawah {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.tahunAtas>a,
+.tahunBawah>a,
+.tahunAtas>a:active,
+.tahunBawah>a:active,
+.tahunAtas>a:visited,
+.tahunBawah>a:visited {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+a {
+    text-decoration: none!important;
+    color: #C08261!important;
+    transition-timing-function: ease-out!important;
+    transition-duration: 0.5s!important;
+}
+
+a:hover {
+    color: #9A3B3B!important;
+    transition-timing-function: ease-out!important;
+    transition-duration: 0.25s!important;
+}
+
+.garis {
+    width: 96.875rem;
+    height: 0.0625rem;
+    background: #9A3B3B;
+    margin: 1.5rem;
+}
+
+.materi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    row-gap: 3rem;
+    column-gap: 1rem;
+}
+
+.materiHeader {
+    width: 26.1875rem;
+    height: 16.5rem;
+    border-radius: 2.5rem;
+    background: #F2ECBE;
+}
+
+.materiHeader1 {
+    width: 26.1875rem;
+    height: 5.4375rem;
+    border-radius: 2.5rem;
+    background: #9A3B3B;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.materiHeader2 {
+    width: 26.1875rem;
+    height: 2.9375rem;
+    background: #9A3B3B;
+    position: absolute;
+    bottom: 0;
+}
+
+.materiTulisanHeader {
+    color: #F2ECBE;
+    font-family: Quando;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    top: 2rem;
+}
+
+.materiBodyCont {
+    position: absolute;
+    top: 120%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.materiBodyCont>a {
+    color: #9A3B3B;
+    text-align: center;
+    font-family: Quando;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 1rem;
+}
+
+.oleh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+}

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E2C799;
+}
+
+nav {
+    background: #9A3B3B;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    height: min-content;
+    width: 100%;
+}
+
+.logoJudul {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.logo {
+    width: 73px;
+    height: 73px;
+    flex-shrink: 0;
+}
+
+.judul {
+    color: #FFF;
+    font-family: 'Quando', serif;
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.judulQuiz {
+    color: #9A3B3B;
+    text-align: center;
+    font-family: Quando;
+    font-size: 5.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 3rem;
+    margin-bottom: 2.25rem;
+}
+
+.rincian {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rincian>p {
+    color: #9A3B3B;
+    font-family: Plus Jakarta Sans;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+table, th, td {
+    border: 1px solid #9A3B3B;
+  }
+
+th {
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+td {
+    padding-right: 10rem;
+    padding-left: 1rem;
+}
+
+.rincian>table {
+    color: #9A3B3B;
+    text-align: justify;
+    font-family: Plus Jakarta Sans;
+    font-size: 2.25rem;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.siap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.siap>p {
+    color: #9A3B3B;
+    font-family: Quando;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.siap>a {
+    color: #FFF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 17.125rem;
+    height: 4.875rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #9A3B3B;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.siap>a>p {
+    margin-top: 0.8rem;
+}
+
+.oleh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+}
